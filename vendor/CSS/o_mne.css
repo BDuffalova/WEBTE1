@@ -1,0 +1,37 @@
+
+aside {
+    font-size: 50px;
+    color: rgb(62, 213, 255);
+}
+
+aside::before {
+    content: '"';
+}
+
+aside::after {
+    content: '"';
+}
+
+div {
+    width: 30%;
+    float: left;
+
+}
+
+article {
+    text-align: justify;
+    clear: right;
+    width: 70%;
+}
+
+img {
+    width: 100%;
+    
+    margin-right: 10px;
+}
+
+ul {
+    display: block;
+    text-align: left;
+   
+}
