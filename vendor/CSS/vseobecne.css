@@ -5,6 +5,8 @@ header {
 }
 
 footer {
+    bottom: 0;
+    width: 100%;
     margin-top: 50px;
     font-size: small;
     color: rgba(255, 255, 255, 0.5);
@@ -12,7 +14,7 @@ footer {
 
 body {
     background-color: #07F3FA;
-    background-image: url("hl_stranka_pozadie.png");
+    background-image: url("../CSS/img/hl_stranka_pozadie.png");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -71,8 +73,8 @@ hr {
 }
 
 .uvodne-nadpisy {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 20%;
+    margin-bottom: 20%;
     align-items: center;
     
 }

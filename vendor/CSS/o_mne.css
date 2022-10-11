@@ -1,37 +1,69 @@
+hgroup {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+hgroup h1 {
+    font-size: 3vw;
+    
+    
+}
+
+hgroup h2 {
+    font-size: 2vw;
+    
+    
+}
 
 aside {
-    font-size: 50px;
-    color: rgb(62, 213, 255);
-}
-
-aside::before {
-    content: '"';
-}
-
-aside::after {
-    content: '"';
-}
-
-div {
-    width: 30%;
+    background-color: rgb(82, 0, 159,0.5);
+    width: 40%;
     float: left;
-
+    margin-right: 2%;
+    margin-bottom: 1%;
+    
 }
+
+.motto {
+    font-size: 3vw;
+    margin: 0 2px;
+    color: rgb(255, 255, 255);
+}
+
+.motto::before {
+    content: '"';
+}
+
+.motto::after {
+    content: '"';
+}
+
 
 article {
+    margin: 0 auto;
     text-align: justify;
-    clear: right;
-    width: 70%;
+    width: 60%;
 }
 
-img {
-    width: 100%;
-    
-    margin-right: 10px;
+.fotka {
+    width: 40%;
+    float: left;
+    margin-right: 0;
 }
 
-ul {
+.vlastnosti {
+    float: right;
+    list-style-type: square;
     display: block;
     text-align: left;
-   
 }
+
+.vlastnosti li {
+    margin-left: 2vw;
+}
+
+p {
+    font-size: 1.5vw;
+}
+

@@ -1,28 +1,30 @@
 main {
+    display: table;
     text-align: left;
     margin: auto;
     display: flex;
-    width: 70%;
-    height: 1000px;
+    width: 60%;
+    height: 100%;
 }
 
 .udaje {
     background-color: rgb(137, 50, 219,0.5);
     width: 50%;
-    height: 100%;
+    display: table-cell;
     box-shadow: 5px 5px 5px rgba(49, 2, 94, 0.3);
     margin-right: 10px;
 }
 
 .kvalifikacia {
     width: 50%;
-    height: 100%;
+    display: table-cell;
     background-color: rgb(67, 171, 245,0.5);
     box-shadow: 5px 5px 5px rgba(49, 2, 94, 0.3);
 }
 
 img {
     margin-left: 0;
-    width: 40%;
+    width: 50%;
 
 }
+

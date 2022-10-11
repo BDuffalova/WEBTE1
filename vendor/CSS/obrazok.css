@@ -1,0 +1,116 @@
+div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+div img {
+    width: 90%;
+}
+
+.postavy {
+    width: fit-content;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30%px;
+    
+}
+.popis {
+    display: none;
+    position: absolute;
+    width: max-content;
+    background-color: rgb(91, 0, 175,0.3);
+    text-align: left;
+    font-size: 1.3vw;
+
+
+}
+
+
+.popis1 {
+    left: 10%;
+    top: 550%;
+}
+
+.popis2 {
+    left: 10%;
+    top: 500%;
+    
+}
+
+.popis3 {
+    left: -120%;
+    top: 370%;
+}
+
+.popis4 {
+    right: 10%;
+    top: 580%;
+}
+
+.popis5 {
+    right: 10%;
+    top: 390%;
+}
+
+.popis img {
+    width: 15vw;
+}
+
+.postava1 {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 15%;
+    top: 12%;
+    padding: 2px;
+}
+
+.postava2 {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    padding: 2px;
+}
+
+.postava3 {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 51%;
+    top: 40%;
+    padding: 2px;
+}
+
+.postava4 {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 65%;
+    top: 14%;
+    padding: 2px;
+}
+
+.postava5 {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 80%;
+    top: 30%;
+    padding: 2px;
+}
+
+.otaznik {
+    position: absolute;
+    background-image: url("img/otaznik.png");
+    background-size: cover;
+    width: 5vw;
+    height: 5vw;
+}
+
+.otaznik:hover + .popis{
+    display: flex;
+}
