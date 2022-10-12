@@ -1,22 +1,34 @@
+@font-face {
+	font-family: "Roboto";
+	src: url('fonts/Roboto-Light.ttf') format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    font-family: "Roboto";
+}
+
 header {
-    justify-content: left;
     align-items: center;
+    justify-content: left;
     padding-bottom: 30px;
 }
 
 footer {
     bottom: 0;
-    width: 100%;
-    margin-top: 50px;
-    font-size: small;
     color: rgba(255, 255, 255, 0.5);
+    font-family: Brush,sans-serif;
+    font-size: small;
+    margin-top: 50px;
+    width: 100%;
 }
 
 body {
     background-color: #07F3FA;
     background-image: url("../CSS/img/hl_stranka_pozadie.png");
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     color: white;
 }
 
@@ -30,8 +42,8 @@ nav {
 }
 
 hr {
-    border-style: solid;
     background-color: rgb(253, 253, 253,0.7);
+    border-style: solid;
     border-width: 0;
     height: 1px;
     width: 60%;
@@ -41,21 +53,21 @@ hr {
 .container {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    width: 100%;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    width: 100%;
 }
 
 .menu {
-    display: flex;
-    justify-content: center;
+    /* background-color: rgb(0,0,0,0.7); */
     align-items: center;
+    display: flex;
     height: fit-content;
+    justify-content: center;
     margin: 0px 10px;
     padding: 5px 10px;
-    /* background-color: rgb(0,0,0,0.7); */
 }
 
 .menu li {
@@ -68,18 +80,19 @@ hr {
 
 .menu li a {
     color: aliceblue;
+    font-size: 2vw;
     text-decoration: none;
-    font-size: 2vw
 }
 
 .uvodne-nadpisy {
-    margin-top: 20%;
-    margin-bottom: 20%;
     align-items: center;
+    margin-bottom: 20%;
+    margin-top: 20%;
     
 }
 
 .uvodne-nadpisy h1 {
+    font-family: brush, sans-serif;
     font-size: 5vw;
     
     

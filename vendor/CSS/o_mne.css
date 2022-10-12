@@ -1,7 +1,7 @@
 hgroup {
-    margin-top: 20px;
     margin-bottom: 10px;
-    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
 }
 
 hgroup h1 {
@@ -16,19 +16,33 @@ hgroup h2 {
     
 }
 
+h3 {
+    font-size: 1.5vw;
+}
+
 aside {
     background-color: rgb(82, 0, 159,0.5);
-    width: 40%;
     float: left;
-    margin-right: 2%;
     margin-bottom: 1%;
+    margin-right: 2%;
+    width: 30%;
     
 }
 
+article {
+    margin: 0 auto;
+    text-align: justify;
+    width: 60%;
+}
+
+p {
+    font-size: 1.2vw;
+}
+
 .motto {
-    font-size: 3vw;
-    margin: 0 2px;
     color: rgb(255, 255, 255);
+    font-size: 2vw;
+    margin: 0 2px;
 }
 
 .motto::before {
@@ -40,30 +54,21 @@ aside {
 }
 
 
-article {
-    margin: 0 auto;
-    text-align: justify;
-    width: 60%;
-}
-
 .fotka {
-    width: 40%;
     float: left;
     margin-right: 0;
+    width: 40%;
 }
 
-.vlastnosti {
-    float: right;
-    list-style-type: square;
+.vtipy {
     display: block;
+    list-style-type: square;
     text-align: left;
 }
 
-.vlastnosti li {
+.vtipy li {
+    font-size: 1.2vw;
     margin-left: 2vw;
 }
 
-p {
-    font-size: 1.5vw;
-}
 

@@ -9,20 +9,19 @@ div img {
 }
 
 .postavy {
-    width: fit-content;
-    position: relative;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 30%px;
+    margin-bottom: 20%;
+    position: relative;
+    width: fit-content;
     
 }
 .popis {
-    display: none;
-    position: absolute;
-    width: max-content;
     background-color: rgb(91, 0, 175,0.3);
-    text-align: left;
+    display: none;
     font-size: 1.3vw;
+    position: absolute;
+    text-align: left;
+    width: max-content;
 
 
 }
@@ -59,56 +58,56 @@ div img {
 }
 
 .postava1 {
-    width: 10%;
     height: 10%;
-    position: absolute;
     left: 15%;
-    top: 12%;
     padding: 2px;
+    position: absolute;
+    top: 12%;
+    width: 10%;
 }
 
 .postava2 {
-    width: 10%;
     height: 10%;
-    position: absolute;
     left: 35%;
-    top: 20%;
     padding: 2px;
+    position: absolute;
+    top: 20%;
+    width: 10%;
 }
 
 .postava3 {
-    width: 10%;
     height: 10%;
-    position: absolute;
     left: 51%;
-    top: 40%;
     padding: 2px;
+    position: absolute;
+    top: 40%;
+    width: 10%;
 }
 
 .postava4 {
-    width: 10%;
     height: 10%;
-    position: absolute;
     left: 65%;
-    top: 14%;
     padding: 2px;
+    position: absolute;
+    top: 14%;
+    width: 10%;
 }
 
 .postava5 {
-    width: 10%;
     height: 10%;
-    position: absolute;
     left: 80%;
-    top: 30%;
     padding: 2px;
+    position: absolute;
+    top: 30%;
+    width: 10%;
 }
 
 .otaznik {
-    position: absolute;
     background-image: url("img/otaznik.png");
     background-size: cover;
-    width: 5vw;
     height: 5vw;
+    position: absolute;
+    width: 5vw;
 }
 
 .otaznik:hover + .popis{
